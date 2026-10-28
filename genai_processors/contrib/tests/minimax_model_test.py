@@ -94,7 +94,7 @@ class MiniMaxModelTest(
   @parameterized.parameters(
       (
           {'region': 'china'},
-          'https://api.minimax.cn/v1/chat/completions',
+          'https://api.minimaxi.com/v1/chat/completions',
           'MiniMax-M3.1-Flash',
       ),
       (

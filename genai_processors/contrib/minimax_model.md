@@ -28,7 +28,7 @@ are accepted (`model` is sent as `assistant`). Tools and non-text input are
 rejected explicitly; this processor does not convert or discard media.
 
 The default endpoint is `https://api.minimax.io/v1`. Set `region='china'` for
-`https://api.minimax.cn/v1`, or supply an explicit `base_url` for a compatible
+`https://api.minimaxi.com/v1`, or supply an explicit `base_url` for a compatible
 service. Custom endpoints require their own model and capability verification.
 A supplied `httpx.AsyncClient` remains owned by its caller; the processor closes
 only a client it creates itself.

@@ -28,7 +28,7 @@ RECOMMENDED_MODELS = ('MiniMax-M3.1-Flash', 'MiniMax-M3')
 DEFAULT_MODEL = RECOMMENDED_MODELS[0]
 _BASE_URLS = {
     'global': 'https://api.minimax.io/v1',
-    'china': 'https://api.minimax.cn/v1',
+    'china': 'https://api.minimaxi.com/v1',
 }
 Effort = Literal['low', 'medium', 'high', 'xhigh', 'max']
 
